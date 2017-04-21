@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:background="@mipmap/slide_bg">
+
+    <!--右下角的关闭按钮-->
+    <ImageView
+        android:onClick="click"
+        android:id="@+id/iv_main_corver_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="60dp"
+        android:src="@mipmap/side_close"/>
+
+
+    <!--头像区域-->
+    <RelativeLayout
+        android:id="@+id/rl_main_corver_top"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:onClick="click"
+            android:id="@+id/iv_main_corver_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/default_avatar"/>
+
+        <ImageView
+            android:onClick="click"
+            android:id="@+id/iv_main_corver_set"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/iv_main_corver_head"
+            android:background="@drawable/slide_image_shape"
+            android:scaleType="fitXY"
+            android:src="@mipmap/side_set"/>
+
+        <ImageView
+            android:onClick="click"
+            android:id="@+id/iv_main_corver_message"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/iv_main_corver_head"
+            android:background="@drawable/slide_image_shape"
+            android:scaleType="fitXY"
+            android:src="@mipmap/side_message"/>
+    </RelativeLayout>
+
+
+    <!--缓存和喜欢-->
+    <RelativeLayout
+        android:id="@+id/rl_main_corver_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_main_corver_top"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:clickable="true"
+            android:onClick="click"
+            android:id="@+id/ll_main_corver_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/video_lan_download"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的缓存"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:onClick="click"
+            android:id="@+id/ll_main_corver_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/video_lan_collect"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我喜欢的"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--首页、系列、幕后-->
+    <RadioGroup
+        android:id="@+id/rg_main_corver"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/rl_main_corver_2"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_main_corver_home"
+            style="@style/main_corver_radiobutton_stytle"
+            android:drawableLeft="@drawable/slide_home_selector"
+            android:text="首页"/>
+
+        <RadioButton
+            android:id="@+id/rb_main_corver_series"
+            style="@style/main_corver_radiobutton_stytle"
+            android:drawableLeft="@drawable/slide_series_selector"
+            android:text="系列"/>
+
+        <RadioButton
+            android:id="@+id/rb_main_corver_behind"
+            style="@style/main_corver_radiobutton_stytle"
+            android:drawableLeft="@drawable/slide_behind_selector"
+            android:text="幕后"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+{"status": "0",
+  "msg": "OK",
+  "data": [
+    {
+      "cateid": "2",
+      "catename": "\u5168\u90e8"
+    },
+    {
+      "cateid": "47",
+      "catename": "\u7535\u5f71\u81ea\u4e60\u5ba4"
+    },
+    {
+      "cateid": "53",
+      "catename": "\u7535\u5f71\u4f1a\u5ba2\u5385"
+    },
+    {
+      "cateid": "4",
+      "catename": "\u62cd\u6444"
+    },
+    {
+      "cateid": "31",
+      "catename": "\u5668\u6750"
+    },
+    {
+      "cateid": "80",
+      "catename": "VR"
+    },
+    {
+      "cateid": "30",
+      "catename": "\u540e\u671f"
+    },
+    {
+      "cateid": "26",
+      "catename": "\u7efc\u8ff0"
+    }
+  ]
+}

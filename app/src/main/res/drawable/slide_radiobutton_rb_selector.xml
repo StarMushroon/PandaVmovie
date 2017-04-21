@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:drawable="@color/colorWrite"/>
+            <item
+                android:drawable="@color/colorBlack"
+                android:left="2dp"/>
+        </layer-list>
+    </item>
+
+</selector>

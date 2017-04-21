@@ -1,0 +1,132 @@
+{
+  "data": [
+    {
+      "cate_type": "0",
+      "orderid": "1",
+      "cateid": "6",
+      "catename": "\u521b\u610f",
+      "alias": "Idea",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c9f3d1bc2d.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "2",
+      "cateid": "11",
+      "catename": "\u65c5\u884c",
+      "alias": "Travel",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c958d6411a.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "3",
+      "cateid": "13",
+      "catename": "\u5e7f\u544a",
+      "alias": "Ad",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6e7901621.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "4",
+      "cateid": "8",
+      "catename": "\u641e\u7b11",
+      "alias": "Fun",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570ca09bd4325.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "5",
+      "cateid": "12",
+      "catename": "\u7231\u60c5",
+      "alias": "Love",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c94f8ce2e0.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "6",
+      "cateid": "17",
+      "catename": "\u5267\u60c5",
+      "alias": "Story",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6e518f2b4.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "7",
+      "cateid": "10",
+      "catename": "\u8fd0\u52a8",
+      "alias": "Sports",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6e9d55dcb.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "8",
+      "cateid": "16",
+      "catename": "\u52a8\u753b",
+      "alias": "Animation",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c9cedd55bc.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "9",
+      "cateid": "7",
+      "catename": "\u52b1\u5fd7",
+      "alias": "Inspiration",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6e61a6eea.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "10",
+      "cateid": "18",
+      "catename": "\u97f3\u4e50",
+      "alias": "MV",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6f1cdd754.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "11",
+      "cateid": "23",
+      "catename": "\u79d1\u5e7b",
+      "alias": "Fiction",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6edab6f69.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "12",
+      "cateid": "43",
+      "catename": "\u9884\u544a",
+      "alias": "Trailer",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6f2ae0f5b.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "13",
+      "cateid": "24",
+      "catename": "\u7eaa\u5f55",
+      "alias": "Record",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6ee6a51c7.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "14",
+      "cateid": "44",
+      "catename": "\u6df7\u526a",
+      "alias": "Cut",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6e6d9fff0.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "15",
+      "cateid": "45",
+      "catename": "\u5b9e\u9a8c",
+      "alias": "Experimental",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6f431d2d1.jpg"
+    },
+    {
+      "cate_type": "0",
+      "orderid": "16",
+      "cateid": "78",
+      "catename": "\u751f\u6d3b",
+      "alias": "Lifeness",
+      "icon": "http:\/\/cs.vmoiver.com\/Uploads\/Series\/2016-04-12\/570c6f4f9679c.jpg"
+    }
+  ]
+}

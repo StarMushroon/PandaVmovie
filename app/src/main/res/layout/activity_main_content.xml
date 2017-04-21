@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--主页的布局-->
+    <RelativeLayout
+        android:id="@+id/main_titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000">
+
+        <!--左上角的菜单按钮 右上角的搜索按钮-->
+        <ImageView
+
+            android:id="@+id/iv_avtivity_main_content_side"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:onClick="click"
+            android:src="@mipmap/home_side"/>
+
+        <ImageView
+            android:id="@+id/iv_avtivity_main_content_search"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:onClick="click"
+            android:src="@mipmap/home_search_disable"/>
+
+        <TextView
+            android:id="@+id/tv_activity_main_content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="幕后"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:id="@+id/frame_activity_main_content_firstpage_Title"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/tv_activity_main_content_firstpage_title_newset"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:onClick="click"
+                android:text="最新"
+                android:textColor="#fff"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/tv_activity_main_content_firstpage_title_channel"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:onClick="click"
+                android:text="频道"
+                android:textColor="#fff"
+                android:textSize="17dp"/>
+
+            <View
+                android:id="@+id/view_main_firstpage_"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="15dp"
+                android:background="@color/colorWrite"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <!--碎片布局占位-->
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>

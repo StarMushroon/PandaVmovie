@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_channel_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.xiao.pandavmovie.ui.home.home_Channel.detail.ChannelListActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:id="@+id/iv_back_activity_chanel_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/abc_ic_ab_back_mtrl_am_alpha"/>
+
+        <TextView
+            android:id="@+id/tv_activtity_channel_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listview_activity_channel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_series_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiao.pandavmovie.ui.series.detail.SeriesDetailActivity">
+
+    <VideoView
+        android:id="@+id/video_activity_series_detail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/video_activity_series_detail"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_activity_series_detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text=""
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/tv_activity_series_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=""
+                android:textColor="#aeada9"/>
+
+            <TextView
+                android:id="@+id/tv_activity_series_detail_update"
+                style="@style/textview_activity_series_detail"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tv_activity_series_detail_update_two"
+                style="@style/textview_activity_series_detail"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tv_activity_series_detail_update_type"
+                style="@style/textview_activity_series_detail"
+                android:text=""/>
+
+            <com.xiao.pandavmovie.widget.ExpandableTextView
+                android:id="@+id/tv_activity_series_detail_tittle_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                app:DrawableAndTextGravity="center"
+                app:maxCollapsedLines="2"
+                app:expandText="查看全部"
+                app:collapseText="收起全部"/>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tablayout_activity_series_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabMode="scrollable"/>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_activity_series_detail"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

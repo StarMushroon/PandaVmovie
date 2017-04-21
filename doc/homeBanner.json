@@ -1,0 +1,128 @@
+{
+  "status": "0",
+  "msg": "OK",
+  "data": [
+    {
+      "bannerid": "1664",
+      "type": "7",
+      "object_id": "0",
+      "title": "",
+      "url": "\/",
+      "image": "http:\/\/cs.vmoiver.com\/Uploads\/Banner\/2017\/04\/16\/58f3434b576af.jpg",
+      "description": "",
+      "userid": "927555",
+      "addtime": "1492337483",
+      "uptime": "1492337483",
+      "orderid": "6",
+      "cateid": "0",
+      "count_click": "0",
+      "status": "1",
+      "start_time": "1492358400",
+      "end_time": "1492444740",
+      "extra": "{\"app_banner_type\":\"1\",\"app_banner_param\":\"http:\\\/\\\/www.vmovier.com\\\/fan245?inner_app=1\",\"app_show_type\":null}",
+      "extra_data": {
+        "app_banner_type": "1",
+        "app_banner_param": "http:\/\/www.vmovier.com\/fan245?inner_app=1",
+        "app_show_type": ""
+      }
+    },
+    {
+      "bannerid": "1644",
+      "type": "7",
+      "object_id": "0",
+      "title": "",
+      "url": "\/",
+      "image": "http:\/\/cs.vmoiver.com\/Uploads\/Banner\/2017\/04\/06\/58e627b6da93a.jpg",
+      "description": "",
+      "userid": "551913",
+      "addtime": "1492166081",
+      "uptime": "1492166081",
+      "orderid": "4",
+      "cateid": "0",
+      "count_click": "1130",
+      "status": "1",
+      "start_time": "1491478440",
+      "end_time": "0",
+      "extra": "{\"app_banner_type\":\"1\",\"app_banner_param\":\"https:\\\/\\\/kdt.im\\\/QLJqvr\",\"app_show_type\":\"all\"}",
+      "extra_data": {
+        "app_banner_type": "1",
+        "app_banner_param": "https:\/\/kdt.im\/QLJqvr",
+        "app_show_type": "all"
+      }
+    },
+    {
+      "bannerid": "1667",
+      "type": "7",
+      "object_id": "0",
+      "title": "",
+      "url": "\/",
+      "image": "http:\/\/cs.vmoiver.com\/Uploads\/Banner\/2017\/04\/16\/58f3906db92f3.jpg",
+      "description": "",
+      "userid": "927555",
+      "addtime": "1492357229",
+      "uptime": "1492357229",
+      "orderid": "3",
+      "cateid": "0",
+      "count_click": "0",
+      "status": "1",
+      "start_time": "1492357229",
+      "end_time": "0",
+      "extra": "{\"app_banner_type\":\"2\",\"app_banner_param\":\"51521\",\"app_show_type\":null}",
+      "extra_data": {
+        "app_banner_type": "2",
+        "app_banner_param": "51521",
+        "app_show_type": "",
+        "is_album": "0"
+      }
+    },
+    {
+      "bannerid": "1658",
+      "type": "7",
+      "object_id": "0",
+      "title": "",
+      "url": "\/",
+      "image": "http:\/\/cs.vmoiver.com\/Uploads\/Banner\/2017\/04\/13\/58eee7abb4e1f.jpg",
+      "description": "",
+      "userid": "927555",
+      "addtime": "1492051883",
+      "uptime": "1492051883",
+      "orderid": "2",
+      "cateid": "0",
+      "count_click": "0",
+      "status": "1",
+      "start_time": "1492051883",
+      "end_time": "0",
+      "extra": "{\"app_banner_type\":\"2\",\"app_banner_param\":\"51526\",\"app_show_type\":null}",
+      "extra_data": {
+        "app_banner_type": "2",
+        "app_banner_param": "51526",
+        "app_show_type": "",
+        "is_album": "0"
+      }
+    },
+    {
+      "bannerid": "1600",
+      "type": "7",
+      "object_id": "0",
+      "title": "",
+      "url": "\/",
+      "image": "http:\/\/cs.vmoiver.com\/Uploads\/Banner\/2017\/03\/17\/58cbd2501e6f3.jpg",
+      "description": "",
+      "userid": "962838",
+      "addtime": "1489851828",
+      "uptime": "1489851828",
+      "orderid": "1",
+      "cateid": "0",
+      "count_click": "4467",
+      "status": "1",
+      "start_time": "1489752600",
+      "end_time": "0",
+      "extra": "{\"app_banner_type\":\"1\",\"app_banner_param\":\"http:\\\/\\\/www.xinpianchang.com\\\/activity\\\/independence\\\/ts-magicfood\",\"app_show_type\":\"all\"}",
+      "extra_data": {
+        "app_banner_type": "1",
+        "app_banner_param": "http:\/\/www.xinpianchang.com\/activity\/independence\/ts-magicfood",
+        "app_show_type": "all"
+      }
+    }
+  ]
+}

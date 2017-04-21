@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_behind_content_web"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiao.pandavmovie.ui.behind.behindContent.BehindContentWebActivity">
+
+    <WebView
+        android:id="@+id/webview_activity_behind_content_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
