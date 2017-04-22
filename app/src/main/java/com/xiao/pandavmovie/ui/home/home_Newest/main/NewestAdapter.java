@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 import com.xiao.pandavmovie.R;
 import com.xiao.pandavmovie.bean.HomeNewestListBean;
+import com.xiao.pandavmovie.utils.TimeUtil;
 import com.xiao.pandavmovie.utils.image.ImageCache;
 
 import java.text.SimpleDateFormat;
@@ -70,12 +71,13 @@ public class NewestAdapter extends BaseAdapter {
      /*   vh.tv_date.setText(s);*/
 
         //TODO  首页 日期的滑动改变
-      /*  String publish_time = mList.get(position).publish_time;
+     /*   String publish_time = mList.get(position).publish_time;
         if (publish_time != null) {
-            SimpleDateFormat format = new SimpleDateFormat("MM-dd");
+          //  SimpleDateFormat format = new SimpleDateFormat("MM-dd");
             long time = Long.parseLong(publish_time + "000");
-            String s = format.format(new Date(time));
-            vh.tv_date.setText(s);
+            String formatTime = TimeUtil.getFormatTime(time, "MM-dd");
+            //  String s = format.format(new Date(time));
+            vh.tv_date.setText(formatTime);
         }else {
 
         }*/

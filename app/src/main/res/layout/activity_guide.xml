@@ -5,10 +5,54 @@
     android:id="@+id/activity_guide"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.xiao.pandavmovie.ui.splash.GuideActivity">
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_hello"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:clickable="true"
+        android:onClick="click"
+        android:text="开始体验"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:textColor="#f00"
+        android:textStyle="bold"
+        android:background = "@drawable/splash_textview_shape"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_hello_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/splash_selector"/>
+
+        <ImageView
+            android:id="@+id/iv_hello_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/splash_selector"/>
+
+        <ImageView
+            android:id="@+id/iv_hello_3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/splash_selector"/>
+    </LinearLayout>
 </RelativeLayout>

@@ -3,14 +3,13 @@ package com.xiao.pandavmovie.utils;
 import android.content.Context;
 import android.widget.Toast;
 
-/**ww
- * 吐司
+/**
  * Created by StarMushroom on 2017/4/14.
  */
 
-public class ToastUtils {
+public class ToastUtil {
 
-    private ToastUtils() {
+    private ToastUtil() {
         /** cannot be instantiated**/
         throw new UnsupportedOperationException("cannot be instantiated");
     }
@@ -28,16 +27,6 @@ public class ToastUtils {
             Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
 
-    /**
-     * 短时间显示Toast
-     *
-     * @param context
-     * @param message
-     */
-    public static void showShort(Context context, int message) {
-        if (isShow)
-            Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
-    }
 
     /**
      * 长时间显示Toast
@@ -50,16 +39,6 @@ public class ToastUtils {
             Toast.makeText(context, message, Toast.LENGTH_LONG).show();
     }
 
-    /**
-     * 长时间显示Toast
-     *
-     * @param context
-     * @param message
-     */
-    public static void showLong(Context context, int message) {
-        if (isShow)
-            Toast.makeText(context, message, Toast.LENGTH_LONG).show();
-    }
 
     /**
      * 自定义显示Toast时间
@@ -73,15 +52,4 @@ public class ToastUtils {
             Toast.makeText(context, message, duration).show();
     }
 
-    /**
-     * 自定义显示Toast时间
-     *
-     * @param context
-     * @param message
-     * @param duration
-     */
-    public static void show(Context context, int message, int duration) {
-        if (isShow)
-            Toast.makeText(context, message, duration).show();
-    }
 }

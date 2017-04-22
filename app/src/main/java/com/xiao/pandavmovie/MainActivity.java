@@ -68,12 +68,11 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     @BindView(R.id.ll_main_corver_like)
     LinearLayout ll_like;
 
-    /*RadioButton切换fragment*/
-    @BindView(R.id.rg_main_corver)
-    RadioGroup mRadioGroup;
 
-    @BindView(R.id.rb_main_corver_home)
-    RadioButton rb_home;
+    private RadioGroup mRadioGroup;
+
+    // @BindView(R.id.rb_main_corver_home)
+    private RadioButton rb_home;
 
     @BindView(R.id.rb_main_corver_series)
     RadioButton rb_series;
@@ -81,14 +80,14 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     @BindView(R.id.rb_main_corver_behind)
     RadioButton rb_behind;
 
-    @BindView(R.id.view_main_firstpage_)
-    View mView;   //小滑块
+    // @BindView(R.id.view_main_firstpage_)
+    private View mView;   //小滑块
 
-    @BindView(R.id.main_cover)
-    View mCover; //浮层布局
+    //  @BindView(R.id.main_cover)
+    private View mCover; //浮层布局
 
-    @BindView(R.id.frame_activity_main_content_firstpage_Title)
-    FrameLayout firsttitle;
+    // @BindView(R.id.frame_activity_main_content_firstpage_Title)
+    private FrameLayout firsttitle;
 
     private long mExitTime;
     private Fragment currentFragent;  //正在显示的fragment
@@ -114,9 +113,21 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        rb_home.setChecked(true);
+        initView();
         changeFragment(HomeFragment.TAG);
         mRadioGroup.setOnCheckedChangeListener(this);
+
+    }
+
+    private void initView() {
+       /*RadioButton切换fragment*/
+        mRadioGroup = (RadioGroup) findViewById(R.id.rg_main_corver);
+        rb_home = (RadioButton) findViewById(R.id.rb_main_corver_home);
+        rb_home.setChecked(true);
+
+        firsttitle = (FrameLayout) findViewById(R.id.frame_activity_main_content_firstpage_Title);
+        mView = findViewById(R.id.view_main_firstpage_);
+        mCover = findViewById(R.id.main_cover);
     }
 
     @OnClick({R.id.iv_avtivity_main_content_side,
@@ -169,9 +180,10 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 
 
     @OnClick(R.id.rg_main_corver)
-    public void onClick(View view){
+    public void onClick(View view) {
 
     }
+
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         switch (checkedId) {

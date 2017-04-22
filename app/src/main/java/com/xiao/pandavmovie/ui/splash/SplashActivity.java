@@ -11,6 +11,8 @@ import android.widget.ImageView;
 
 import com.xiao.pandavmovie.MainActivity;
 import com.xiao.pandavmovie.R;
+import com.xiao.pandavmovie.utils.SharedParams;
+import com.xiao.pandavmovie.utils.SharedUtil;
 
 public class SplashActivity extends AppCompatActivity implements Animation.AnimationListener {
 
@@ -51,8 +53,20 @@ public class SplashActivity extends AppCompatActivity implements Animation.Anima
 
     @Override
     public void onAnimationEnd(Animation animation) {
-        startActivity(new Intent(this, MainActivity.class));
-        finish();
+
+
+
+        if (SharedUtil.getFlag(SharedParams.USE_FLAG)) {
+            // 去主页面
+            startActivity(new Intent(this, MainActivity.class));
+            finish();
+        }else{
+            // 缓存打开过的标记
+            SharedUtil.putFlag(SharedParams.USE_FLAG,true);
+            // 去导航页面
+            startActivity(new Intent(this, GuideActivity.class));
+            finish();
+        }
     }
 
     @Override

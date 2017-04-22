@@ -65,14 +65,16 @@ public class ChannelAdapter extends BaseAdapter {
     }
 
     class Viewholder {
-        @BindView(R.id.iv_item_fragment_channel)
+     //   @BindView(R.id.iv_item_fragment_channel)
         ImageView iv;
 
-        @BindView(R.id.tv_item_fragment_channel)
+      //  @BindView(R.id.tv_item_fragment_channel)
         TextView tv;
 
         public Viewholder(View itemView) {
-            ButterKnife.bind(this, itemView);
+       //     ButterKnife.bind(this, itemView);
+            iv = (ImageView) itemView.findViewById(R.id.iv_item_fragment_channel);
+            tv = (TextView) itemView.findViewById(R.id.tv_item_fragment_channel);
         }
     }
 }
