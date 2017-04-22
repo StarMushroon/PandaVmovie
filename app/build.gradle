@@ -1,6 +1,4 @@
 apply plugin: 'com.android.application'
-storeFile file('C:/Users/Administrator.PC201608071013/Desktop/xiao.jks')
-storePassword 'xiao9044'
 
 android {
     signingConfigs {
